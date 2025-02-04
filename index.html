@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Lap Notes | ProDigy Infotech</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Stopwatch with Lap Notes</h1>
+        <div class="stopwatch">
+            <div id="display">00:00:00</div>
+            
+            <!-- Input field for lap note -->
+            <input type="text" id="lapNote" placeholder="Enter note for lap..." class="lap-input">
+            
+            <div class="buttons">
+                <button id="startStop" class="btn start">Start</button>
+                <button id="reset" class="btn reset">Reset</button>
+                <button id="lap" class="btn lap">Lap</button>
+            </div>
+            
+            <ul id="laps"></ul>
+        </div>
+    </div>
+
+</body>
+</html>
